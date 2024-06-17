@@ -49,5 +49,13 @@
     "jest": "^29.7.0",
     "ts-node": "^10.9.2"
   },
-  "gitHead": "eb8809623aa7432fd3991a3eed34e481e855fc04"
+  "gitHead": "eb8809623aa7432fd3991a3eed34e481e855fc04",
+  "volta": {
+    "node": "20.13.1",
+    "npm": "10.5.2"
+  },
+  "engines": {
+    "node": ">= 20",
+    "npm": ">= 10"
+  }
 }
