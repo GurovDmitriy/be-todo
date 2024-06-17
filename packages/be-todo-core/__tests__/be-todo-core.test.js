@@ -1,7 +1,7 @@
 "use strict"
 
 const { describe, expect, test } = require("@jest/globals")
-const beTodo = require("../dist/lib/be-todo")
+const beTodo = require("../dist/lib/be-todo-core.js")
 
 describe("be-todo", () => {
   test("should be add todo", () => {

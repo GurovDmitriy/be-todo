@@ -1,7 +1,7 @@
 {
-  "name": "@gurovdmitriy/be-todo",
+  "name": "@gurovdmitriy/be-todo-core",
   "version": "1.0.3",
-  "description": "Be-todo: playground package",
+  "description": "Be-todo-core: playground package",
   "keywords": [
     "Library",
     "JavaScript",
@@ -31,8 +31,8 @@
     "url": "git+https://github.com/GurovDmitriy/be-todo.git"
   },
   "license": "MIT",
-  "main": "dist/lib/be-todo.js",
-  "types": "dist/lib/be-todo.d.ts",
+  "main": "dist/lib/be-todo-core.js",
+  "types": "dist/lib/be-todo-core.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"

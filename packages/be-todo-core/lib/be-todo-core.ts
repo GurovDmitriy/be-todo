@@ -2,9 +2,9 @@
 
 const beTodoStrike = require("be-todo-strike")
 
-module.exports = beTodo
+module.exports = beTodoCore
 
-function beTodo() {
+function beTodoCore() {
   const todos: string[] = []
 
   function add(value: string): void {

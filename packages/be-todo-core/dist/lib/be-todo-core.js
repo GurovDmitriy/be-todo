@@ -1,8 +1,8 @@
 "use strict"
 Object.defineProperty(exports, "__esModule", { value: true })
 const beTodoStrike = require("be-todo-strike")
-module.exports = beTodo
-function beTodo() {
+module.exports = beTodoCore
+function beTodoCore() {
   const todos = []
   function add(value) {
     todos.push(value)

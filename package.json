@@ -1,5 +1,5 @@
 {
-  "name": "@gurovdmitriy/be-todo",
+  "name": "@gurovdmitriy/be-todo-core",
   "private": true,
   "version": "1.0.0",
   "keywords": [
@@ -36,6 +36,7 @@
   "scripts": {
     "build": "npx lerna run build",
     "test": "npx lerna run test",
+    "semver": "npx lerna version",
     "publish": "npx lerna publish from-package",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:eslint": "eslint .",
