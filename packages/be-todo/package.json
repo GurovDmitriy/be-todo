@@ -1,6 +1,6 @@
 {
   "name": "be-todo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Be-todo: playground package",
   "keywords": [
     "Library",
@@ -45,7 +45,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "be-todo-strike": "^1.0.0"
+    "be-todo-strike": "^1.0.1"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
