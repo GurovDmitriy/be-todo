@@ -1,5 +1,5 @@
 {
-  "name": "be-todo",
+  "name": "@gurovdmitriy/be-todo",
   "version": "1.0.2",
   "description": "Be-todo: playground package",
   "keywords": [
@@ -52,5 +52,5 @@
     "jest": "^29.7.0",
     "ts-node": "^10.9.2"
   },
-  "gitHead": "672c71274f4b0a63653dbbdbb115aa584be45925"
+  "gitHead": "eb8809623aa7432fd3991a3eed34e481e855fc04"
 }
