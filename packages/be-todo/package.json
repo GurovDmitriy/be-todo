@@ -1,6 +1,6 @@
 {
   "name": "be-todo",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Be-todo: playground package",
   "author": "GurovDmitriy <gurovdmitriy1991@gmail.com>",
   "homepage": "https://github.com/GurovDmitriy/be-todo",
@@ -19,7 +19,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "be-todo-strike": "*"
+    "be-todo-strike": "^1.0.0"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
