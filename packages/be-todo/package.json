@@ -2,8 +2,34 @@
   "name": "be-todo",
   "version": "1.0.0",
   "description": "Be-todo: playground package",
-  "author": "GurovDmitriy <gurovdmitriy1991@gmail.com>",
-  "homepage": "https://github.com/GurovDmitriy/be-todo",
+  "keywords": [
+    "Library",
+    "JavaScript",
+    "Builder",
+    "LernaJs",
+    "Nx",
+    "Boilerplate",
+    "Template",
+    "Starter"
+  ],
+  "author": {
+    "name": "Gurov Dmitriy",
+    "email": "gurovdmitriy1991@gmail.com",
+    "url": "https://github.com/GurovDmitriy"
+  },
+  "public": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/GurovDmitriy/be-todo/issues",
+    "email": "gurovdmitriy1991@gmail.com"
+  },
+  "homepage": "https://github.com/GurovDmitriy/be-todo#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GurovDmitriy/be-todo.git"
+  },
   "license": "MIT",
   "main": "dist/lib/be-todo.js",
   "types": "dist/lib/be-todo.d.ts",
@@ -25,5 +51,6 @@
     "@jest/globals": "^29.7.0",
     "jest": "^29.7.0",
     "ts-node": "^10.9.2"
-  }
+  },
+  "gitHead": "fdf1ec53916a228ada2b0d6c8497cf6f45ec2176"
 }

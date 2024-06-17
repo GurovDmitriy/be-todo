@@ -1,11 +1,3 @@
-# `be-todo-strike`
+# Be-todo-strike: playground package
 
-> TODO: description
-
-## Usage
-
-```
-const beTodoStrike = require('be-todo-strike');
-
-// TODO: DEMONSTRATE API
-```
+---

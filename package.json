@@ -1,12 +1,42 @@
 {
-  "name": "root",
+  "name": "@gurovdmitriy/be-todo",
   "private": true,
+  "keywords": [
+    "Library",
+    "JavaScript",
+    "Builder",
+    "LernaJs",
+    "Nx",
+    "Boilerplate",
+    "Template",
+    "Starter"
+  ],
+  "author": {
+    "name": "Gurov Dmitriy",
+    "email": "gurovdmitriy1991@gmail.com",
+    "url": "https://github.com/GurovDmitriy"
+  },
+  "public": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/GurovDmitriy/be-todo/issues",
+    "email": "gurovdmitriy1991@gmail.com"
+  },
+  "homepage": "https://github.com/GurovDmitriy/be-todo#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GurovDmitriy/be-todo.git"
+  },
+  "license": "MIT",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "build": "npx lerna run build",
     "test": "npx lerna run test",
+    "publish": "npx lerna publish from-package",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --write \"**/*.{js,jsx,cjs,mjs,ts,tsx,cts,mts,md,json}\" --ignore-path .prettierignore",

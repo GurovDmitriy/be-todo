@@ -272,3 +272,4 @@ tasks.md
 .idea
 .nx/cache
 .nx/workspace-data
+.npmrc
