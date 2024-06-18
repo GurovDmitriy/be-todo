@@ -5,9 +5,7 @@
   "useNx": true,
   "command": {
     "publish": {
-      "allowBranch": "main",
-      "conventionalCommits": true,
-      "message": "chore(release): publish"
+      "allowBranch": "main"
     }
   }
 }
