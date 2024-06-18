@@ -1,12 +1,12 @@
 "use strict"
 
-const { describe, expect, test } = require("@jest/globals")
-const beTodo = require("../dist/lib/be-todo-core.js")
+import { describe, expect, test } from "@jest/globals"
+import { beTodoCore } from "../dist/lib/esm/be-todo-core.js"
 
 describe("be-todo", () => {
   test("should be add todo", () => {
     // arrange
-    const sut = beTodo()
+    const sut = beTodoCore()
     const value = "todo"
 
     // act
@@ -20,7 +20,7 @@ describe("be-todo", () => {
 
   test("should be remove todo", () => {
     // arrange
-    const sut = beTodo()
+    const sut = beTodoCore()
     const value = "todo"
     sut.add(value)
 
@@ -34,7 +34,7 @@ describe("be-todo", () => {
 
   test("should be remove todo", () => {
     // arrange
-    const sut = beTodo()
+    const sut = beTodoCore()
     const value = "todo"
     sut.add(value)
     sut.add(value)
@@ -49,7 +49,7 @@ describe("be-todo", () => {
 
   test("should be strike todo", () => {
     // arrange
-    const sut = beTodo()
+    const sut = beTodoCore()
     const value = "todo"
     const expected = "todo: Done"
     sut.add(value)

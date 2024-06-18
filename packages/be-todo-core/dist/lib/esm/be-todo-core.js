@@ -1,7 +1,5 @@
-"use strict"
-Object.defineProperty(exports, "__esModule", { value: true })
-const beTodoStrike = require("be-todo-strike")
-module.exports = beTodoCore
+import { beTodoStrike } from "@gurovdmitriy/be-todo-strike"
+
 function beTodoCore() {
   const todos = []
   function add(value) {
@@ -22,3 +20,5 @@ function beTodoCore() {
     strike,
   }
 }
+
+export { beTodoCore }

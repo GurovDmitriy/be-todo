@@ -1,8 +1,6 @@
 "use strict"
 
-const beTodoStrike = require("be-todo-strike")
-
-module.exports = beTodoCore
+import { beTodoStrike } from "@gurovdmitriy/be-todo-strike"
 
 function beTodoCore() {
   const todos: string[] = []
@@ -28,3 +26,5 @@ function beTodoCore() {
     strike,
   }
 }
+
+export { beTodoCore }

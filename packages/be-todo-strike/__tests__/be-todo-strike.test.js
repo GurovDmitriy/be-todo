@@ -1,7 +1,7 @@
 "use strict"
 
-const { describe, expect, test } = require("@jest/globals")
-const beTodoStrike = require("../dist/lib/be-todo-strike.js")
+import { describe, expect, test } from "@jest/globals"
+import { beTodoStrike } from "../dist/lib/esm/be-todo-strike.js"
 
 describe("be-todo-strike", () => {
   test("should be return string", () => {
