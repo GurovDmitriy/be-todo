@@ -74,7 +74,7 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   },
-  "gitHead": "133456226b9f582f202f3507808f6e4324d235fe",
+  "gitHead": "de63134274a705de9a1179474ec63a92e156c11f",
   "volta": {
     "node": "20.13.1",
     "npm": "10.5.2"

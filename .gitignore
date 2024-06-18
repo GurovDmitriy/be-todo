@@ -273,3 +273,4 @@ tasks.md
 .nx/cache
 .nx/workspace-data
 .npmrc
+**/dist

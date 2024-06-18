@@ -2,5 +2,12 @@
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "version": "1.2.0",
   "npmClient": "npm",
-  "useNx": true
+  "useNx": true,
+  "command": {
+    "publish": {
+      "allowBranch": "main",
+      "conventionalCommits": true,
+      "message": "chore(release): publish"
+    }
+  }
 }

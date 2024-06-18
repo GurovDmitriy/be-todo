@@ -1,6 +1,7 @@
 {
   "name": "@gurovdmitriy/be-todo",
   "private": true,
+  "public": false,
   "version": "1.0.0",
   "keywords": [
     "Library",
@@ -16,9 +17,6 @@
     "name": "Gurov Dmitriy",
     "email": "gurovdmitriy1991@gmail.com",
     "url": "https://github.com/GurovDmitriy"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "bugs": {
     "url": "https://github.com/GurovDmitriy/be-todo/issues",
