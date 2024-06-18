@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1718705186383" clover="3.2.0">
-  <project timestamp="1718705186383" name="All files">
+<coverage generated="1718722218060" clover="3.2.0">
+  <project timestamp="1718722218060" name="All files">
     <metrics statements="24" coveredstatements="24" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="4" elements="33" coveredelements="33" complexity="0" loc="24" ncloc="24" packages="1" files="1" classes="1"/>
     <file name="be-todo-core.js" path="C:\Users\ASUS\Desktop\development\pet\lerna\be-todo\packages\be-todo-core\dist\lib\esm\be-todo-core.js">
       <metrics statements="24" coveredstatements="24" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="4"/>
